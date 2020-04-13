@@ -88,4 +88,40 @@ video {
 }
 html {
   background-image: url("../css/images/About\ Me\ pg\ Just\ the\ beginning\ background\ design\ file1.jpg");
+  font-size: 32.5%;
+}
+/*********************STYLES*********************/
+.containMe {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 4rem;
+}
+p {
+  font-size: 4rem;
+}
+nav {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid blue;
+}
+nav a {
+  color: black;
+  font-size: 5rem;
+  text-decoration: none;
+  border: 1px dotted blue;
+}
+.Logo {
+  border: 1px solid purple;
+  align-self: flex-start;
+  /* margin: 5% 2%; */
 }
