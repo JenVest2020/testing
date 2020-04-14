@@ -88,11 +88,13 @@ video {
 }
 html {
   background-image: url("../css/images/About\ Me\ pg\ Just\ the\ beginning\ background\ design\ file1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 32.5%;
 }
 /*********************STYLES*********************/
 .containMe {
-  margin: 0 10%;
+  margin: 2% 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -106,7 +108,7 @@ h3 {
   font-weight: 900;
 }
 p {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 nav {
@@ -115,13 +117,20 @@ nav {
   justify-content: center;
   justify-content: space-around;
   align-items: flex-start;
+  margin: 2%;
 }
 nav a {
   color: black;
-  font-size: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
   text-decoration: none;
 }
 .Logo {
   align-self: flex-start;
   width: 10%;
+}
+@media (max-width: 800px) {
+  html {
+    background: antiquewhite;
+  }
 }
