@@ -99,12 +99,15 @@ html {
 }
 h2 {
   font-size: 5rem;
+  font-weight: 1000;
 }
 h3 {
   font-size: 4rem;
+  font-weight: 900;
 }
 p {
   font-size: 4rem;
+  font-weight: bold;
 }
 nav {
   height: 20vh;
@@ -112,16 +115,13 @@ nav {
   justify-content: center;
   justify-content: space-around;
   align-items: flex-start;
-  border: 1px solid blue;
 }
 nav a {
   color: black;
   font-size: 5rem;
   text-decoration: none;
-  border: 1px dotted blue;
 }
 .Logo {
-  border: 1px solid purple;
   align-self: flex-start;
-  /* margin: 5% 2%; */
+  width: 10%;
 }
