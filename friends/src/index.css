@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+button {
+  background-image: linear-gradient(to bottom right, #00a2ff, whitesmoke);
+  font-weight: bold;
+  color: #000066;
+  
+}
+
+.ddwrapper {
+  background-image: linear-gradient(to bottom right, #00a2ff,#000066, whitesmoke);
+  border: 2px ridge #000066;
+}
+
+.ddheader {
+  background-image: linear-gradient(to bottom right, #00a2ff, whitesmoke);
+  border: 2px ridge hsl(240, 100%, 20%);
+  text-align: center;
+  font-size: small;
+  color:#000066
+}
+div {
+  display:flex;
+  flex-flow: column wrap;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title {
+  background-image: linear-gradient(to bottom right, #00a2ff, whitesmoke);
+  border: 2px ridge #000066;
+  color:#000066;
+  text-align: center;
+}
